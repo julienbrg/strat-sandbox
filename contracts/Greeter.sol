@@ -1,15 +1,14 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-pragma solidity ^0.7.0;
+pragma solidity 0.8.0;
 
-import "hardhat/console.sol";
+// import "hardhat/console.sol";
 
 // to be replaced
 contract Greeter {
   string greeting;
 
   constructor(string memory _greeting) {
-    console.log("Deploying a Greeter with greeting:", _greeting);
     greeting = _greeting;
   }
 
@@ -18,7 +17,6 @@ contract Greeter {
   }
 
   function setGreeting(string memory _greeting) public {
-    console.log("Changing greeting from '%s' to '%s'", greeting, _greeting);
     greeting = _greeting;
   }
 }

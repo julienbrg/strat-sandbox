@@ -20,7 +20,7 @@ task("accounts", "Prints the list of accounts", async () => {
  const GOERLI_PRIVATE_KEY = "35d0cf5fb603fe1270632e07126813421a4c5724d5656681ed92d7e5958d79bd";
 
  module.exports = {
-   solidity: "0.7.0",
+   solidity: "0.8.0",
    networks: {
      goerli: {
        url: `https://goerli.infura.io/v3/${INFURA_PROJECT_ID}`,
