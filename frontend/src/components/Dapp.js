@@ -61,15 +61,22 @@ export class Dapp extends React.Component {
             <p>
               Welcome! Your wallet address is <b>{this.state.selectedAddress}</b>
             </p>
+            <hr />
 
-            <p>
-              The Greeter contract is saying: "<b>{this.state.greeting}</b>"
-            </p>
+            {/* We'll implement the requested features here */}
+            <h3>Create items</h3>
+            <br />
+            <hr />
 
+            <h3>Buy items</h3>
+            <br />
+            <hr />
+
+            <h3>Earn items</h3>
+            <br />
+            <hr />
           </div>
         </div>
-
-        <hr />
 
         <div className="row">
           <div className="col-12">
